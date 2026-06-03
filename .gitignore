@@ -62,6 +62,12 @@ data/
 .env
 .env.local
 .env.*.local
+!.env.example
+
+### Application Configuration ###
+# Ignore application.properties but keep example
+src/main/resources/application.properties
+!src/main/resources/application.properties.example
 
 ### Build ###
 *.jar
